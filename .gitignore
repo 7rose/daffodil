@@ -2,23 +2,19 @@ vendor/
 node_modules/
 bower_components/
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
 # Laravel 5 & Lumen specific
 .env.*.php
 .env.php
 .env
 
-#common
+# common
 ._.DS_Sortore
 Thumbs.db
 
-#ico
+# ico
 public/favicon.*
 
-#wechat ca files
+# wechat ca files
 public/MP*
 
 socket.js

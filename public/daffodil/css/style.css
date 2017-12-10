@@ -1,0 +1,435 @@
+/* test*/
+.fuck {
+	height: 1000px;
+	background-color: blue;
+}
+
+/* 2017-3-20 kris@restrose.org*/
+body a {
+	color: #f2a6bd;
+}
+
+a:hover, a:active, a:focus {
+  color: #ea6390;
+  outline: none;
+  text-decoration: none;
+}
+
+.control-label {
+	font-weight: lighter;
+}
+
+button {
+	margin-top: 30px;
+}
+
+.panel-icon {
+  width: 60px;
+  height: 60px;
+  border: 0.5px solid #efefef;
+}
+
+
+.logo {
+	width: 150px;
+  padding:0;
+  margin-left: 5px;
+  margin-top:3px;
+}
+
+.pull-right {
+	list-style-type: none;
+}
+
+#user {
+	margin-right: 15px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#user-ico {
+	width: 40px;
+	margin-top: 5px;
+	margin-right: 15px;
+  margin-bottom: 0;
+  padding: 0;
+	border: 1px solid #fff;
+}
+
+#user-drop {
+	margin-right: 15px;
+}
+
+.user-menu-ico {
+	padding-right: 8px;
+}
+
+.top-height {
+	height: 67px;
+}
+
+.top-pad{
+	height: 20px;
+}
+.breadcrumb {
+	border-bottom: 0.5px solid #efced9;
+  background-color: #fff;
+}
+
+.breadcrumb li a{
+	color: #999;
+}
+
+.breadcrumb a:hover, a:active, a:focus {
+  color: #ea6390;
+  outline: none;
+  text-decoration: none;
+}
+
+.footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.footer p {
+	margin:0;
+	padding-top: 10px;
+}
+
+.note-footer {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* SHOP */
+.shop-staff > a {
+  padding-left: 10px;
+}
+
+.shop-staff-male {
+  color: #000;
+}
+
+
+/* Task List */
+.task-img {
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+.task-icon {
+  padding: 0;
+  margin:0;
+}
+
+.task a{
+  color: #000;
+}
+
+.task {
+  display: block;
+  border-bottom: 1px solid #f9f9f9;
+  margin-bottom: 1px;
+}
+
+.task.last {
+  border-bottom: 1px solid transparent;
+}
+
+.task.danger {
+  border-left: 2px solid #FA603D; /* rgba(250,96,61,1); */
+}
+
+.task. warning{
+  border-left: 2px solid #FABB3D; /* rgba(250,187,61,1) */;
+}
+
+.task.success {
+  border-left: 2px solid #78CD51; /* rgba(120,205,81,1); */
+}
+
+.task .desc {
+  display: inline-block;
+
+  padding: 10px 10px;
+  font-size: 12px;
+}
+
+.task .desc .title{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.task .time {
+  display: inline-block;
+  float: right;
+
+  padding: 10px 10px 10px 0px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.task .time .date {
+  font-size: 14px;
+  margin-bottom: 5px; 
+}
+
+
+/* Image Cropper */
+.fix {
+  display: block;
+  margin: 1% auto 5%;
+  height: 220px;
+  width: 220px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,.15);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+.avatar-view {
+  display: block;
+
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.avatar-view img {
+  width: 100%;
+}
+
+.avatar-body {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.avatar-upload {
+  overflow: hidden;
+}
+
+.avatar-upload label {
+  display: block;
+  float: left;
+  clear: left;
+  width: 100px;
+}
+
+.avatar-upload input {
+  display: block;
+  margin-left: 110px;
+}
+
+.avater-alert {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar-wrapper {
+  height: 364px;
+  width: 100%;
+  margin-top: 15px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.25);
+  background-color: #fcfcfc;
+  overflow: hidden;
+}
+
+.avatar-wrapper img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.avatar-preview {
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.avatar-preview:hover {
+  border-color: #ccf;
+  box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+.avatar-preview img {
+  width: 100%;
+}
+
+.preview-lg {
+  height: 184px;
+  width: 184px;
+  margin-top: 15px;
+}
+
+.preview-md {
+  height: 100px;
+  width: 100px;
+}
+
+.preview-sm {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 992px) {
+  .avatar-preview {
+    float: none;
+  }
+}
+
+.avatar-btns {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.avatar-btns .btn-group {
+  margin-right: 5px;
+}
+
+.loading {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff url("../img/loading.gif") no-repeat center center;
+  opacity: .75;
+  filter: alpha(opacity=75);
+  z-index: 20140628;
+}
+
+
+/* ============= DIV boarder color============= */
+.border_danger {
+  border: 1px solid #ed1165;
+}
+
+.border_warning {
+  border: 1px solid #f2bc0f;
+}
+
+.border_success {
+  border: 1px solid #c4d694;
+}
+
+.border_info {
+  border: 1px solid #66bfe2;
+}
+
+/* ============= text color============= */
+.text_danger {
+  color: #ea6390;
+}
+
+/*======== seek ========*/
+.seek {
+  border-bottom:1px dashed #dcdddd;
+  height:50px;
+  margin-bottom: 15px;
+}
+
+/*=========== render ==========*/
+
+.render {
+  text-align: center;
+}
+
+
+/*===== bage num ===*/
+.num {
+  background: #66bfe2;
+  border: 1px solid white;
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  line-height: 10px;
+  padding: 4px 6px;
+  margin: 15px -8px 0px 0px; 
+}
+
+.num-list {
+  right: 30px;
+  top:-7px;
+}
+
+.user-ico {
+  background: #FA603D;
+  line-height: 10px;
+
+}
+
+.bg-success {
+  background: #c4d694;
+}
+
+.bg-info {
+  background: #66bfe2;
+}
+
+/*======= cart img =====*/
+.cart-img {
+  width: 35px;
+  height: 35px;
+}
+
+/*=== fix img ===*/
+.fix-img {
+  position: absolute;
+  float: right;
+  top:5px;
+  right: 38px;
+  height: 44px;
+  width: 44px;
+}
+
+.fix-img > img {
+  height: 44px;
+  width: 44px;
+}
+
+.fix-label {
+  margin-left: 15px;
+}
+
+.sn-label {
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.sale-img {
+  width: 200px;
+  height: 200px;
+}
+.sale-price {
+  margin-top:10px;
+}
+
+
+#qrcode {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card_ico {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
